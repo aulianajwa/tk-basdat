@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2 style="text-align:center" class="fw-bold">Dashboard Manager {{data.namaLengkap}}</h2>
+    
+  <div class="px-2">
+    <p>Nama Depan: {{data.email}}</p>
+    <p>Nama Belakang: {{data.password}}</p>
+    <p>Nomor HP: {{data.namaLengkap}}</p>
+    <p>Email : {{data.nomorHp}}</p>
+    <p>Alamat : {{data.nomorHp}}</p>
+    <p>Status : {{data.nomorHp}}</p>
+    <p>Daftar Pertandingan : {{data.nomorHp}}</p>
+    
+  </div>
+
+{% endblock content %}
